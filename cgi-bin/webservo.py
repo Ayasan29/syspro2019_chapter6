@@ -29,9 +29,7 @@ def setservo(degree):
 	servo.ChangeDutyCycle(pwm)
 	time.sleep(1.0)
 
-if servo == 'OK':
-	setservo(int(value))
-	print('servo degree :' + str(value) + 'Åã')
+setservo(int(value))
 
 
 	
